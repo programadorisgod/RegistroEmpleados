@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace Presentacion_GUI
 {
@@ -43,7 +44,7 @@ namespace Presentacion_GUI
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
+            guardar();
         }
 
         private void RegistroClientes_MouseDown(object sender, MouseEventArgs e)
