@@ -14,6 +14,7 @@ namespace Presentacion_GUI
 {
     public partial class RegistroClientes : Form
     {
+        Cliente cliente = new Cliente();
         int p = -1;
         public RegistroClientes()
         {
@@ -32,7 +33,13 @@ namespace Presentacion_GUI
             {
                 if (p == 1)
                 {
-
+                    cliente.Cedula = txtcedula.Text;
+                    cliente.Nombre = txtnombre.Text;
+                    cliente.Telefono = txtTelefono.Text;
+                    cliente.id_empleado = Convert.ToInt32(txtidempleado);
+                    string guardar = string.Empty;
+                    bool encontro = false;
+                    var Respuesta = MessageBox.Show("Desea guardar el cliente?", "Responde...", MessageBoxButtons.YesNoCancel);
                 }
             }
         }
