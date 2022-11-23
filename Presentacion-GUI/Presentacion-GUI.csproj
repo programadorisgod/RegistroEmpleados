@@ -116,7 +116,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroClientes.resx">
+      <DependentUpon>RegistroClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -146,6 +153,27 @@
       <Project>{93c02be5-7c76-4d28-b005-28db9272598c}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_save_128_28731 %281%29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil-striped-symbol-for-interface-edit-buttons_icon-icons.com_56782 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_delete_128_28267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_12777.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64673.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_12777.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" />
