@@ -63,6 +63,36 @@ namespace Presentacion_GUI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3369995 {
+            get {
+                object obj = ResourceManager.GetObject("3369995", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3430275 {
+            get {
+                object obj = ResourceManager.GetObject("3430275", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _34302751 {
+            get {
+                object obj = ResourceManager.GetObject("34302751", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _64673 {
             get {
                 object obj = ResourceManager.GetObject("64673", resourceCulture);
@@ -116,6 +146,26 @@ namespace Presentacion_GUI.Properties {
         internal static System.Drawing.Bitmap ic_save_128_28731__1___2_ {
             get {
                 object obj = ResourceManager.GetObject("ic_save_128_28731 (1) (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen_2022_11_23_181812636_upscaled_upscaled {
+            get {
+                object obj = ResourceManager.GetObject("imagen_2022-11-23_181812636_upscaled_upscaled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap importante__1_ {
+            get {
+                object obj = ResourceManager.GetObject("importante (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

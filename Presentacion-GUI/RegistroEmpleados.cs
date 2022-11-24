@@ -16,5 +16,10 @@ namespace Presentacion_GUI
         {
             InitializeComponent();
         }
+
+        private void RegistroEmpleados_Load(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.Transparent;
+        }
     }
 }

@@ -22,5 +22,16 @@ namespace Presentacion_GUI
         {
 
         }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            RegistroEmpleados registroEmpleados = new RegistroEmpleados();
+            registroEmpleados.Show();
+        }
     }
 }
