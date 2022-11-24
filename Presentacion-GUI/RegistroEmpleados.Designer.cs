@@ -47,6 +47,9 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.grillaListaProductos = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -59,6 +62,9 @@
             this.panel3.BackgroundImage = global::Presentacion_GUI.Properties.Resources._3369995;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.grillaListaProductos);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(223, 0);
@@ -252,7 +258,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.grillaListaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.grillaListaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grillaListaProductos.Location = new System.Drawing.Point(6, 73);
+            this.grillaListaProductos.Location = new System.Drawing.Point(6, 69);
             this.grillaListaProductos.MultiSelect = false;
             this.grillaListaProductos.Name = "grillaListaProductos";
             this.grillaListaProductos.ReadOnly = true;
@@ -268,8 +274,41 @@
             this.grillaListaProductos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grillaListaProductos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.grillaListaProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grillaListaProductos.Size = new System.Drawing.Size(559, 365);
+            this.grillaListaProductos.Size = new System.Drawing.Size(559, 369);
             this.grillaListaProductos.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Lavender;
+            this.label6.Location = new System.Drawing.Point(4, 26);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(277, 31);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Lista de Empleados";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label7.Location = new System.Drawing.Point(310, 37);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 16);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Buscar:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(368, 36);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(195, 20);
+            this.textBox1.TabIndex = 6;
             // 
             // RegistroEmpleados
             // 
@@ -285,6 +324,7 @@
             this.Text = "Empleados";
             this.Load += new System.EventHandler(this.RegistroEmpleados_Load);
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -311,5 +351,8 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label labelError;
         private System.Windows.Forms.DataGridView grillaListaProductos;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
